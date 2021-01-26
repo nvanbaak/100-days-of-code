@@ -1,5 +1,9 @@
 # I've joined the #100DaysOfCode Challenge
 
+## Note from the participant --
+
+I'm endeavoring to leave the materials for the challenge as pristine as possible.  The only thing that'll really change is the log.
+
 ## Contents
 
 * [Rules](rules.md)
