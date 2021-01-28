@@ -2,9 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const inq = require('inquirer');
 const moment = require('moment');
-const { type } = require('os');
-
-const localpath = path.normalize("./");
 
 startup();
 
@@ -58,8 +55,8 @@ function featureLoop(outputStr) {
         }
     ]).then( res => {
 
+        // If we do, run the next prompt sequence
         if (res.addLink) {
-
             inq.prompt([
                 {
                     message:"Provide a link to your work:",
@@ -72,18 +69,16 @@ function featureLoop(outputStr) {
                 }
             ]).then( res => {
 
+                // Add the link to the output
                 outputStr += `\n[${res.linkName}](${res.linkHTML})`;
 
+                // Ask for more features
                 featureLoop(outputStr);
 
             })
         } else {
-
-
-
-
-
-
+            // if we don't need more features, we just write to the log
+            writeLog(outputStr);
         }
     })
 
@@ -91,11 +86,13 @@ function featureLoop(outputStr) {
 
 }
 
+function writeLog(outputStr) {
+
+    // append the given string to the log
+    fs.appendFileSync('log.md', outputStr, err => {
+        if (err) throw err;
+        console.log("File updated!");
+    })
 
 
-
-
-
-
-
-
+}
