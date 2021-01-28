@@ -35,7 +35,7 @@ function startup() {
         let outputStr = `\n\n### Day ${dayCounter}: ${now.format('MMMM D, YYYY')}`;
         outputStr += `\n\n**Progress:** ${res.progress}`;
         outputStr += `\n\n**Thoughts:** ${res.thoughts}`;
-        outputStr += `\n\n**Link to Work:** [${res.linkName}](${res.linkHTML})`
+        outputStr += `\n\n**Link to Work:** \n[${res.linkName}](${res.linkHTML})`
 
         // See if we need more features before writing to file
         featureLoop(outputStr);

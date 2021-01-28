@@ -23,3 +23,13 @@
 **Thoughts:** I'm still not the biggest fan of Bootstrap, but I think I'm finally learning to work with it rather than against it
 
 **Link to work:** [Command Center](https://github.com/nvanbaak/command-center)
+
+### Day 3: January 28, 2021
+
+**Progress:** Wrote a quick Node.js program to automate writing these logs every day.  In fact, this very entry was written in the program.  Also finished editing capability for to-do items on Command Center.  Next up, implementing sidebar link customization.
+
+**Thoughts:** It's fun to automate stuff.  Doesn't necessarily save much time, but I suspect there's some kind of psychological effort that's being minimized.  Might be a working memory thing—automating a process means you don't need to keep the task roadmap in your head.
+
+**Link to Work:** 
+[100daysofcode automation](https://github.com/nvanbaak/100-days-of-code)
+[Command Center](https://nvanbaak.github.io/command-center/)

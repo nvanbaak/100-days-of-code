@@ -4,6 +4,8 @@
 
 I'm endeavoring to leave the materials for the challenge as pristine as possible.  The only thing that'll really change is the log.
 
+Edit 1/28/21: welp, that didn't last long.  Wrote a script in Node.js to semi-automatically add content to the log.  You can install by cloning the repo and typing `npm install` on a terminal in the project folder.  Once installed, `node index.js` will start the script.  It'll ask you for the content it needs to populate the log entry, then format it and write to the log.
+
 ## Contents
 
 * [Rules](rules.md)
