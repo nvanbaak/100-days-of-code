@@ -1,5 +1,4 @@
 const fs = require('fs');
-const path = require('path');
 const inq = require('inquirer');
 const moment = require('moment');
 
