@@ -33,3 +33,12 @@
 **Link to Work:** 
 [100daysofcode automation](https://github.com/nvanbaak/100-days-of-code)
 [Command Center](https://nvanbaak.github.io/command-center/)
+
+### Day 4: January 29, 2021
+
+**Progress:** Command Center links are dynamically generated from a list rather than hardcoded onto the page.  Next step is to allow users to customize those arrays.
+
+**Thoughts:** Looking forward to when all this infrastructure is set up and I can start setting up a backend with user accounts.
+
+**Link to Work:** 
+[Command Center](https://github.com/nvanbaak/command-center)
