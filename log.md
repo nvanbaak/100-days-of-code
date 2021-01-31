@@ -51,3 +51,12 @@
 
 **Link to Work:** 
 [Command Center](https://github.com/nvanbaak/command-center)
+
+### Day 6: January 31, 2021
+
+**Progress:** Agnosticized adding links to sidebars; added delete button for each sidebar; began but did not finish implementing delete button functioanlity.
+
+**Thoughts:** No thoughts today.  Tired.
+
+**Link to Work:** 
+[Command Center](https://github.com/nvanbaak/command-center)
