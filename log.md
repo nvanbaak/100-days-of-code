@@ -42,3 +42,12 @@
 
 **Link to Work:** 
 [Command Center](https://github.com/nvanbaak/command-center)
+
+### Day 5: January 30, 2021
+
+**Progress:** Link customization on Command Center is proceeding according to plan.  Biggest timesink by far was figuring out how to position "add link" button on the sidebar
+
+**Thoughts:** It was good to have a refresher on CSS positioning.
+
+**Link to Work:** 
+[Command Center](https://github.com/nvanbaak/command-center)
