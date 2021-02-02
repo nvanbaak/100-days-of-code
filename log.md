@@ -60,3 +60,12 @@
 
 **Link to Work:** 
 [Command Center](https://github.com/nvanbaak/command-center)
+
+### Day 7: February 1, 2021
+
+**Progress:** Sidebars links can now be deleted!  As this point we've got all the frontend functionality we need, so tomorrow we set up the SQL server.
+
+**Thoughts:** Got done a bit after midnight, but it still got done, which is the important part.
+
+**Link to Work:** 
+[Command Center](https://nvanbaak.github.io/command-center/)
